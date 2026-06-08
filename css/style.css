@@ -909,9 +909,52 @@ section {
 
 .pricing-tiers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+    .pricing-tiers {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .tier-card {
+        padding: 20px;
+    }
+    
+    .tier-header h3 {
+        font-size: 20px;
+    }
+    
+    .amount {
+        font-size: 36px;
+    }
+    
+    .tier-features li {
+        font-size: 14px;
+    }
+    
+    .pricing-features {
+        padding: 20px;
+    }
+    
+    .pricing-features .features-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .feature-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .feature-price {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .tier-card {
@@ -1202,7 +1245,39 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
-    margin-top: 60px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .links-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .link-category {
+        padding: 20px;
+        background: var(--card-bg);
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+    }
+    
+    .link-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .link-list a {
+        padding: 8px 12px;
+        background: var(--darker-bg);
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+    .link-list a:hover {
+        background: var(--primary-color);
+        color: var(--dark-bg);
+    }
 }
 
 .link-category {
