@@ -909,52 +909,9 @@ section {
 
 .pricing-tiers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
-    margin-bottom: 60px;
-}
-
-@media (max-width: 768px) {
-    .pricing-tiers {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .tier-card {
-        padding: 20px;
-    }
-    
-    .tier-header h3 {
-        font-size: 20px;
-    }
-    
-    .amount {
-        font-size: 36px;
-    }
-    
-    .tier-features li {
-        font-size: 14px;
-    }
-    
-    .pricing-features {
-        padding: 20px;
-    }
-    
-    .pricing-features .features-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-    
-    .feature-item {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-    
-    .feature-price {
-        width: 100%;
-        text-align: center;
-    }
+    margin-bottom: 80px;
 }
 
 .tier-card {
@@ -1245,39 +1202,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
-    margin-top: 40px;
-}
-
-@media (max-width: 768px) {
-    .links-container {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    
-    .link-category {
-        padding: 20px;
-        background: var(--card-bg);
-        border-radius: 8px;
-        border: 1px solid var(--border-color);
-    }
-    
-    .link-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-    
-    .link-list a {
-        padding: 8px 12px;
-        background: var(--darker-bg);
-        border-radius: 4px;
-        font-size: 14px;
-    }
-    
-    .link-list a:hover {
-        background: var(--primary-color);
-        color: var(--dark-bg);
-    }
+    margin-top: 60px;
 }
 
 .link-category {
@@ -1577,6 +1502,38 @@ section {
     .section-subtitle {
         font-size: 16px;
     }
+
+    /* 产品定价移动端适配 */
+    .pricing-tiers {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .tier-card {
+        padding: 30px 20px;
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .tier-card.featured {
+        transform: scale(1);
+    }
+
+    .tier-card.featured:hover {
+        transform: translateY(-10px);
+    }
+
+    /* 友情链接移动端适配 */
+    .links-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .link-category {
+        padding: 20px;
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1600,6 +1557,40 @@ section {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    /* 产品定价超小屏幕适配 */
+    .pricing-tiers {
+        gap: 15px;
+    }
+
+    .tier-card {
+        padding: 25px 15px;
+    }
+
+    .tier-header h3 {
+        font-size: 20px;
+    }
+
+    .amount {
+        font-size: 36px;
+    }
+
+    /* 友情链接超小屏幕适配 */
+    .links-container {
+        gap: 15px;
+    }
+
+    .link-category {
+        padding: 15px;
+    }
+
+    .link-category h3 {
+        font-size: 18px;
+    }
+
+    .link-list a {
+        font-size: 14px;
     }
 
     section {
