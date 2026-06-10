@@ -1,0 +1,252 @@
+# ============================================
+# 网站基本信息
+# ============================================
+site_name: MCDN系统
+site_domain: https://www.mosit.cn/
+site_language: zh-CN
+site_type: SoftwareApplication
+site_category: NetworkingApplication
+
+# ============================================
+# 核心关键词
+# ============================================
+primary_keywords:
+  - MCDN系统
+  - CDN
+  - 内容分发网络
+  - WAF
+  - Web应用防火墙
+  - 智能CDN
+  - 内容加速
+  - 内容缓存
+
+secondary_keywords:
+  - 高性能CDN
+  - 安全CDN
+  - 企业级CDN
+  - Python CDN
+  - Rust CDN
+  - CDN解决方案
+  - 高可用CDN
+  - 高效部署CDN
+  - 快速自建CDN
+  - 私有CDN
+
+# ============================================
+# 网站核心描述
+# ============================================
+description: MCDN系统是基于Python主控 + Rust被控节点构建的高性能高效部署CDN系统，提供秒级数据同步、纳秒级攻击响应、自定义规则WAF防护等核心功能，为企业提供安全、稳定、高效的CDN加速解决方案。
+
+elevator_pitch: 下一代智能内容分发系统，基于Python+Rust异构架构，秒级数据同步，毫秒级攻击响应，助力企业快速搭建专属CDN网络。
+
+# ============================================
+# 技术栈信息
+# ============================================
+tech_stack:
+  - 主控系统: Python
+  - 被控节点: Rust
+  - 中间件: 自研Rust中间件
+  - 架构: 分布式、微服务
+
+core_technologies:
+  - 实时节点组秒级数据同步
+  - 毫秒级攻击响应机制
+  - 自定义规则WAF防护
+  - 弹性扩展架构
+  - 多租户隔离机制
+
+# ============================================
+# 页面结构与内容类型
+# ============================================
+pages:
+  - path: /
+    title: 首页
+    type: landing_page
+    priority: 1.0
+    content_type: promotional
+    description: 产品介绍、核心优势展示、CTA按钮
+  
+  - path: /#about
+    title: 系统介绍
+    type: about_page
+    priority: 0.9
+    content_type: informational
+    description: 系统架构概述、技术栈介绍、核心指标展示
+  
+  - path: /#architecture
+    title: 技术架构
+    type: technical_page
+    priority: 0.9
+    content_type: technical_documentation
+    description: 三层架构详解、组件功能说明
+  
+  - path: /#advantages
+    title: 核心优势
+    type: features_page
+    priority: 0.8
+    content_type: comparative
+    description: 产品核心卖点、技术优势对比
+  
+  - path: /#features
+    title: 功能特性
+    type: features_page
+    priority: 0.8
+    content_type: informational
+    description: 完整功能列表、技术参数
+  
+  - path: /#comparison
+    title: 产品对比
+    type: comparison_page
+    priority: 0.8
+    content_type: comparative
+    description: 与传统CDN、开源CDN的对比分析
+  
+  - path: /#cases
+    title: 客户案例
+    type: case_studies_page
+    priority: 0.8
+    content_type: case_studies
+    description: 各行业应用场景、成功案例
+  
+  - path: /#docs
+    title: 技术文档
+    type: documentation_page
+    priority: 0.7
+    content_type: technical_documentation
+    description: 部署指南、API文档、最佳实践
+  
+  - path: /#pricing
+    title: 产品定价
+    type: pricing_page
+    priority: 0.9
+    content_type: commercial
+    description: 定价方案、功能对比、购买入口
+  
+  - path: /#contact
+    title: 联系我们
+    type: contact_page
+    priority: 0.7
+    content_type: lead_generation
+    description: 联系方式、咨询表单
+
+# ============================================
+# 目标受众
+# ============================================
+target_audience:
+  - 企业IT管理者
+  - 系统架构师
+  - 运维工程师
+  - IDC服务商
+  - 电商平台
+  - 游戏运营公司
+  - 视频流媒体平台
+  - 金融行业
+
+user_personas:
+  - 名称: 企业IT总监
+    需求: 高可用、安全、可扩展的CDN解决方案
+    关注点: 成本、稳定性、技术支持
+  
+  - 名称: 系统架构师
+    需求: 灵活的架构设计、API接口、自定义能力
+    关注点: 技术架构、扩展性、集成能力
+  
+  - 名称: IDC服务商
+    需求: 多租户支持、独立计费、品牌自定义
+    关注点: 白标方案、商业化能力
+  
+  - 名称: 运维工程师
+    需求: 自动化运维、监控告警、故障排查
+    关注点: 易用性、自动化、文档质量
+
+# ============================================
+# 内容风格指南
+# ============================================
+tone: professional, technical, trustworthy, innovative
+
+style_rules:
+  - 使用专业术语但保持易懂
+  - 强调技术优势和性能指标
+  - 突出安全性和可靠性
+  - 保持科技感和现代感
+  - 使用数据和案例支持论点
+
+content_formats:
+  - 技术白皮书
+  - 产品文档
+  - 案例研究
+  - 技术博客
+  - API文档
+
+# ============================================
+# SEO优化指南
+# ============================================
+seo_rules:
+  - 关键词自然融入内容
+  - 保持标题长度在60字符以内
+  - 描述长度控制在150-160字符
+  - 使用语义化HTML结构
+  - 优化图片alt属性
+  - 确保移动端适配
+
+priority_keywords:
+  - 高可用CDN
+  - 高效部署CDN
+  - 快速自建CDN
+  - 企业级CDN解决方案
+  - Rust CDN性能
+
+# ============================================
+# 品牌信息
+# ============================================
+brand_name: MCDN
+brand_tagline: 下一代智能内容分发系统
+brand_color: #00FFFF (青色)
+brand_colors:
+  - primary: #00FFFF
+  - secondary: #0080FF
+  - accent: #8000FF
+
+brand_attributes:
+  - 高性能
+  - 安全可靠
+  - 自主可控
+  - 灵活扩展
+  - 技术领先
+
+# ============================================
+# LLM使用建议
+# ============================================
+usage_instructions:
+  1. 内容生成: 基于关键词和内容类型生成相关页面内容
+  2. 关键词优化: 根据SEO规则优化页面关键词密度
+  3. 摘要生成: 为每个页面生成简洁的meta描述
+  4. FAQ生成: 根据功能特性生成常见问题
+  5. 技术文档: 生成API文档和部署指南
+  6. 营销文案: 生成产品介绍和宣传材料
+
+content_generation_rules:
+  - 保持内容专业性和准确性
+  - 引用技术指标和数据
+  - 使用行业标准术语
+  - 突出差异化优势
+  - 保持内容原创性
+
+# ============================================
+# 禁止内容
+# ============================================
+forbidden_content:
+  - 虚假宣传或夸大其词
+  - 未经证实的技术声称
+  - 攻击性或歧视性语言
+  - 与CDN/网络安全无关的内容
+  - 侵犯知识产权的内容
+
+# ============================================
+# 数据保护
+# ============================================
+data_privacy:
+  - 不收集用户敏感信息
+  - 遵守GDPR和中国数据保护法规
+  - 提供隐私政策说明
+  - 用户数据加密传输和存储
