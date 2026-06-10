@@ -1,2 +1,13 @@
+# 允许所有搜索引擎爬虫访问
 User-agent: *
+
+# 设置爬虫延迟（秒）
+Crawl-delay: 10
+
+# 定义站点地图位置
+Sitemap: https://www.mosit.cn/sitemap.xml
+
+# 允许访问的目录
 Allow: /
+Allow: /*
+
