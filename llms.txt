@@ -4,8 +4,8 @@
 site_name: MCDN系统
 site_domain: https://www.mosit.cn/
 site_language: zh-CN
-site_type: SecurityApplication,NetworkingApplication
-site_category: Web应用防火墙,内容分发网络,网络安全
+site_type: CDN,WAF,SecurityApplication,NetworkingApplication,
+site_category: 集群批量搭建部署CDN/WAF,Web应用防火墙,内容分发网络,网络安全
 
 # ============================================
 # 核心关键词
